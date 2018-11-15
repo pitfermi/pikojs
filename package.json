@@ -1,0 +1,27 @@
+{
+  "name": "pikojs",
+  "version": "1.0.2",
+  "description": "Nodejs package to retrieve PV data from a Piko Kostal Inverter.",
+  "main": "src/index.js",
+  "directories": {
+    "example": "example/",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "piko",
+    "inverter",
+    "kostal",
+    "photovoltaic",
+    "piko 10.1"
+  ],
+  "dependencies": {
+    "axios": "*",
+    "cheerio": "*"
+  },
+  "author": "Petros Mavridis",
+  "license": "ISC",
+  "homepage": "https://www.npmjs.com/~pitfermi"
+}
