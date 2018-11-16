@@ -54,14 +54,13 @@ Piko.prototype.getData = async function () {
         const url = `${this._options.host}:${this._options.port}`;
 
         return this.parseHTML(
-            (
-                await axios(url, {
-                    method: 'get',
-                    auth: {
-                        username: this._options.username,
-                        password: this._options.password
+            (await axios(url, {
+                method: 'get',
+                auth: {
+                    username: this._options.username,
+                    password: this._options.password
                     }
-                })
+            })
             ).data
         );
     } catch (error) {
